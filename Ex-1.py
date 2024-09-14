@@ -1,3 +1,4 @@
+import math
 #Rectangle of area 
 
 l=float(input("Enter length:"))
@@ -10,6 +11,12 @@ print(f"The area of rectangle: {area}cm²")
 item=input("Enter the item:")
 price=int(input("Enter the price:"))
 quantity=int(input("Quantity:"))
-print(f"You bought{quantity}{item} on {price}")
+print(f"You bought {quantity} x {item} on {price}")
 total=quantity*price
-print(f"Your grand total is:{total}")
+print(f"Your grand total is: ${total}")
+
+#circumstance of circle
+
+r=float(input("Enter the radius:"))
+cir=2*math.pi*r
+print("Circumstance of a circle :" ,cir)
