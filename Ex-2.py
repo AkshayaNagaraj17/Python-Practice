@@ -5,11 +5,11 @@ if name=="":
 else:
     print(f"Heloo {name}...")
 
-#calculator program
+# simple calculator program
 
 n=int(input("Enter first number:"))
 m=int(input ("Enter first number:"))
-operator=input()
+operator=input("Give the operator(+,-,*,/):")
 if operator=="+":
     print(f"Addition:{n+m}")
 elif operator=="-":
@@ -20,3 +20,8 @@ elif operator=="/":
     print(f"Division:{n/m}")
 else:
     print("Nothing happened")
+
+#conditional expression ternary operator
+
+num=5
+print("positive "if num>0 else "Negative")
