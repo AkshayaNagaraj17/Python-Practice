@@ -22,6 +22,6 @@ else:
     print("Nothing happened")
 
 #conditional expression ternary operator
-
+#one line code
 num=5
-print("positive "if num>0 else "Negative")
+print("Positive "if num>0 else "Negative")

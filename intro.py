@@ -16,3 +16,6 @@ print(type(num))
 tell=input("Enter your name:")
 age1=int(input("Enter your age"))
 print(f"Name: {tell} age:{age1}")
+
+
+
