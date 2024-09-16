@@ -25,3 +25,12 @@ else:
 #one line code
 num=5
 print("Positive "if num>0 else "Negative")
+
+
+#while loop
+
+name=input("Ener the name:")
+while name=="":
+    print("You didnt entered your  name..")
+    name=input("Ener the name:")
+print(f"Heloo{name}")
