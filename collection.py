@@ -4,5 +4,24 @@
 #tuple=>() ordered unchangeable duplictes ok
 
 fruits=["apple","orange","grapes"]
-for i in fruits:
-    print(i)
+fruits[2]="lemon"
+fruits.append("pineapple")
+fruits.sort()
+print(f"Asc order{fruits}")
+fruits.reverse()
+print(f"desc order:{fruits}")
+
+#print(help(fruits))
+#set
+
+games={"cricket","tennis","bat"}
+print("bat" in games)
+games.add("football")
+print(games)
+games.remove("cricket")
+print(games)
+
+#tuple
+
+name=("aksh","eleven","sid")
+print(name.index("aksh"))
