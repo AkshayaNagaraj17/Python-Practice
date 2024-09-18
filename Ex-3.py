@@ -24,8 +24,5 @@ while time<=0:
 total=principle* pow((1+interest/100),time)
 print(f"Your compound interst will be:{total}2f")
 
-for a in range (1,11):
-    print(a)
-    if a==9:
-        break
+
     
