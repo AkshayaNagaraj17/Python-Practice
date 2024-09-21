@@ -5,13 +5,14 @@
 
 fruits=["apple","orange","grapes"]
 fruits[2]="lemon"
+#print(help(fruits))
 fruits.append("pineapple")
 fruits.sort()
 print(f"Asc order{fruits}")
 fruits.reverse()
 print(f"desc order:{fruits}")
 
-#print(help(fruits))
+
 #set
 
 games={"cricket","tennis","bat"}
