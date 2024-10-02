@@ -14,6 +14,6 @@ numPad=[(1,2,3),
         (7,8,9),
         ("*",0,"#")]
 for i in numPad:
-    for num in i:
-        print(num,end="  ")
-    print()
+    #for num in i:
+     print(i,end="  ")
+print()
