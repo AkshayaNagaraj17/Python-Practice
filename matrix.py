@@ -1,3 +1,4 @@
+import random
 rows=int(input("Enter rows:"))
 cols=int(input("Enter colums:"))
 
@@ -34,3 +35,6 @@ print()
 for i in range (len(matrix)):
     print(matrix[i][rows-1-i],end=" ")
 print()
+
+for i in range(rows):
+    print([random.randint(0,10)for i in range(cols)])

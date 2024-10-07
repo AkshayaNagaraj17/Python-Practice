@@ -39,3 +39,4 @@ def inverted_full_pyramid(n):
 
 # Set the value of n (number of rows)
 n = 5
+inverted_full_pyramid(n)

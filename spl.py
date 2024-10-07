@@ -8,21 +8,17 @@ list1=[]
 for i in range(n):
     ele=int(input("enter"))
     list1.append(ele)
-ma=map(sq,list1)
-print(list(ma))
+ma=list(map(sq,list1))
+print(ma)
 #filter
 
 def even(m):
-    if m%2==0:
-        return True
+    return m%2==0
+        
     
-n=int(input())
-list1=[]
-for i in range(n):
-    ele=int(input("enter"))
-    list1.append(ele)
-fil=filter(even,list1)
-print(list(fil))
+
+fil=list(filter(even,ma))
+print(fil)
 
 lists=[1,23,4,5]
 list2=[2,5,6,7]
@@ -35,4 +31,4 @@ def gen(str):
     yield len(str)
     yield str.upper()
 str="helo"
-print(gen(str))
+print(list(gen(str)))
