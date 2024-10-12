@@ -21,5 +21,5 @@ print(sorted(h))
 list=["cat","dog","pooop"]
 sqq={}
 for i in list:
-    sqq[i]=index(i)
+    sqq[i]=len(i)
 print(sqq)

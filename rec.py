@@ -26,4 +26,4 @@ def fibo(f):
         return fibo(f-1)+fibo(f-2)
 n1=int(input())
 for i in range(n1):
-    print(fibo(i),end="")
+    print(fibo(i),end=" s")
