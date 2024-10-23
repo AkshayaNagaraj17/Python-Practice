@@ -1,6 +1,5 @@
 di1={}
 di2={}
-
 d1=int(input())
 d2=int(input())
 for i in range(d1):

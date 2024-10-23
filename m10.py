@@ -1,4 +1,8 @@
-l1=[2,3,4,5,6,7,8,9]
+n=5
+l1=[]
+for i in range(n):
+    el=int(input())
+    l1.append(el)
 ec=0
 oc=0
 for i in l1:
