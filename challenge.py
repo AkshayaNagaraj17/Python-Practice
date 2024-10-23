@@ -6,6 +6,6 @@ for price in prices:
     min_pro=min(min_pro,price)
     profit=price-min_pro
     max_pro=max(max_pro,profit)
-print("Maximum profit: ",max_pro)
+print("Max Profit: ",max_pro)
 
 #2

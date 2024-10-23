@@ -1,0 +1,6 @@
+set1=input("Enter elements")
+set2=input("Enter elements")
+s1=set(set1.split(","))
+s2=set(set2.split(","))
+inter=s1 .intersection (s2)
+print(inter)
